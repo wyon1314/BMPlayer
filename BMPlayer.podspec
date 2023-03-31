@@ -40,7 +40,7 @@ s.subspec 'CacheSupport' do |cache|
     cache.frameworks   = 'UIKit', 'AVFoundation'
 
     cache.dependency 'BMPlayer/Core'
-    cache.dependency 'SnapKit', '~> 5.0.0'
+    cache.dependency 'SnapKit', '~> 5.6.0'
     cache.dependency 'NVActivityIndicatorView', '~> 5.1.1'
     cache.dependency 'VIMediaCache'
 end
